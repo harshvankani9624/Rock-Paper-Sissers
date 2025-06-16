@@ -1,0 +1,124 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+    background-color: #441C2C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    height: 550px;
+    width: 320px;
+    border: 5px solid black;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    font-size: 34px;
+    margin-bottom: 30px;
+    color: #F3602F;
+}
+
+.heading{
+    margin-top: 20px;
+    margin-bottom: 0;
+    color: #FAAD44;
+}
+
+.start{
+    height: 40px;
+    width: 130px;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    border-radius: 15px;
+    background-color:#1D979D;
+    color: #441C2C;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.btn:active{
+    font-size: 22px;
+}
+
+.icon{
+    height:120px;
+    width: 300px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.emogi{
+    height: 90px;
+    width: 90px;
+    font-size:60px;
+    color: #EF5B2C;
+    border: 5px solid #EF5B2C;
+    border-radius: 50%;
+    margin: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    cursor: pointer; 
+}
+
+.paper{
+    color: #17979C;
+    border-color: #17979C;
+}
+
+.emogi:active{
+    font-size: 63px;
+}
+
+.winning_counting{
+    margin: 10px auto;  
+}
+
+.winning_counting div{
+    margin-bottom: 5px;
+}
+
+.winning_counting div h3{
+    display: inline;
+    color: #FCB030;
+}
+
+.notice{
+    height: 35px;
+    width: 280px;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 10px;
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 15px;
+}
+
+.restart{
+    height: 40px;
+    width: 150px;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    border-radius: 15px;
+    background-color:#1D979D;
+    color: #441C2C;
+    cursor: pointer;
+}
